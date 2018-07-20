@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block heading %}
+    first page
+{% endblock %}
+
+{% block body %}
+    <p>hello my name is maciej and this is inheritance</p>
+
+    <a href="{{ url_for('more')}}">next</a>
+
+    <a href="{{ url_for('dynamic')}}">holla</a>
+{% endblock %}
